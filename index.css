@@ -1,0 +1,145 @@
+h1{
+    text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 300px;         
+    object-fit: cover;
+background-color:yellow; 
+}
+body{
+    background-image:url(imagens/ChatGPT\ Image\ 25\ de\ jun.\ de\ 2026\,\ 03_10_59.png);
+    background-size: cover;      
+    background-position: center;   
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    margin: 0;
+}
+h1{color: yellow;}
+h2{ color: white;
+    text-align:center;  
+
+}
+
+
+h3{color: white;}
+h4{color: white;}
+.aprese{
+    background-color: rgb(37, 37, 37);
+   
+}
+.aprese{
+    width: 80%;             
+    max-width: 1000px;       
+    margin: 40px auto;      
+    padding: 30px;          
+
+    background-color: rgba(36, 36, 36, 0.85);
+    color: white;
+
+    border-radius: 20px;     
+    box-shadow: 0 0 20px rgba(53, 53, 53, 0.6);
+}
+
+.persona{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 40px;
+}
+
+.card{
+    width: 250px;
+    background-color: rgba(0,0,0,0.85);
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    transition: 0.3s;
+    border: 2px solid #ffd700;
+}
+
+.card:hover{
+    transform: scale(1.05); 
+   box-shadow: 0 0 20px #ffd700;
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card h2{
+    margin: 15px 0 10px;
+}
+
+.card p{
+    padding: 0 15px 20px;
+    text-align: justify;
+}
+.timeline h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.eventos{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+}
+
+.eventos::before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: gold;
+}
+
+.evento{
+    width: 200px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.bola{
+    width: 20px;
+    height: 20px;
+    background: gold;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.evento h3{
+    color: gold;
+    margin-bottom: 5px;
+}
+
+.evento h4{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.evento p{
+    color: white;
+    line-height: 1.5;
+}
+footer{
+    background-color: rgb(24, 24, 24);
+    box-shadow: 0 0 20px rgba(53, 53, 53, 0.6);
+}
+footer h4{
+    text-align:justify;
+
+}
